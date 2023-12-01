@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity =0.8.8;
 
-import {ITimeswapV2PeripheryRemoveLiquidityGivenPosition} from "@timeswap-labs/v2-periphery/contracts/interfaces/ITimeswapV2PeripheryRemoveLiquidityGivenPosition.sol";
-import {FeesAndReturnedDelta, ExcessDelta} from "@timeswap-labs/v2-periphery/contracts/structs/Param.sol";
+import {ITimeswapV2PeripheryRemoveLiquidityGivenPosition} from "./v2-periphery/contracts/interfaces/ITimeswapV2PeripheryRemoveLiquidityGivenPosition.sol";
+import {FeesAndReturnedDelta, ExcessDelta} from "./v2-periphery/contracts/structs/Param.sol";
 
 import {INativeWithdraws} from "./INativeWithdraws.sol";
 import {IMulticall} from "./IMulticall.sol";

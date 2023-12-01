@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity =0.8.8;
 
-import {ITimeswapV2PeripheryCollect} from "@timeswap-labs/v2-periphery/contracts/interfaces/ITimeswapV2PeripheryCollect.sol";
+import {ITimeswapV2PeripheryCollect} from "./v2-periphery/contracts/interfaces/ITimeswapV2PeripheryCollect.sol";
 
 import {INativeWithdraws} from "./INativeWithdraws.sol";
 import {IMulticall} from "./IMulticall.sol";

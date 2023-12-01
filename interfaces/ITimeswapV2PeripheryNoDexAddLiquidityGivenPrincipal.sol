@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity =0.8.8;
 
-import {ITimeswapV2PeripheryAddLiquidityGivenPrincipal} from "@timeswap-labs/v2-periphery/contracts/interfaces/ITimeswapV2PeripheryAddLiquidityGivenPrincipal.sol";
+import {ITimeswapV2PeripheryAddLiquidityGivenPrincipal} from "./v2-periphery/contracts/interfaces/ITimeswapV2PeripheryAddLiquidityGivenPrincipal.sol";
 
 import {TimeswapV2PeripheryNoDexAddLiquidityGivenPrincipalParam} from "./structs/Param.sol";
 
